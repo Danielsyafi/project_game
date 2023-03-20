@@ -1,0 +1,146 @@
+body{
+   background-color: black;
+   background-image: url(img/lampu.png);
+   background-repeat: no-repeat;
+   background-position-x:-10px ;
+   background-position-y:510px ;
+}
+.background_0{
+    background-image: url(img/npc.png);
+    background-repeat: no-repeat;
+    background-position-x:230px ;
+    background-position-y:390px ;
+}
+.background_1{
+    background-image: url(img/pohon1.png);
+    background-repeat: no-repeat;
+    background-position-x:1210px ;
+    background-position-y:395px ;
+}
+.background_3{
+    background-image: url(img/bintang.gif);
+    background-repeat: no-repeat;
+    background-position-x:-80px ;
+    background-position-y:5px ;
+ 
+}
+.background_4{
+    background-image: url(img/bintang1.gif);
+    background-repeat: no-repeat;
+    background-position-x:1300px ;
+    background-position-y:5px ;
+}
+
+.background_2{
+    border: 5px solid #42f600;
+    border-radius: 30px;
+    padding: 100px;
+    margin: 100px 150px 100px 150px ;
+    
+}
+
+.img img{
+    width: 1510px;
+    height: auto;
+}
+.start{
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    margin: 15px;
+}
+.start h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 90px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+.start h3{
+    color: whitesmoke;
+}
+.start button{
+background-color: greenyellow;
+color: white;
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+
+@media screen and (max-width: 1965px) {
+    body{
+        background-color: black;
+        background-image: url(img/lampu.png);
+        background-repeat: no-repeat;
+        background-position-x:-10px ;
+        background-position-y:570px ;
+     }
+     .background_0{
+         background-image: url(img/npc.png);
+         background-repeat: no-repeat;
+         background-position-x:230px ;
+         background-position-y:450px ;
+     }
+     .background_1{
+         background-image: url(img/pohon1.png);
+         background-repeat: no-repeat;
+         background-position-x:1510px ;
+         background-position-y:450px ;
+     }
+     .background_3{
+         background-image: url(img/bintang.gif);
+         background-repeat: no-repeat;
+         background-position-x:-80px ;
+         background-position-y:5px ;
+      
+     }
+     .background_4{
+         background-image: url(img/bintang1.gif);
+         background-repeat: no-repeat;
+         background-position-x:1700px ;
+         background-position-y:5px ;
+     }
+     
+     .background_2{
+         border: 5px solid #42f600;
+         border-radius: 30px;
+         padding: 100px;
+         margin: 100px 150px 160px 150px ;
+         
+     }
+     
+     .img img{
+         width: 1910px;
+         height: auto;
+     }
+     .start{
+         text-align: center;
+         padding: 10px 0 0 0 ;
+         margin: 15px;
+     }
+     .start h1{
+         font-family: 'Press Start 2P', cursive;
+         font-size: 90px;
+         text-align: center;
+         color: #fff;
+         text-shadow: 2px 2px #000;
+     }
+     .start h3{
+         color: whitesmoke;
+     }
+     .start button{
+     background-color: greenyellow;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     cursor: pointer;
+     }
+    
+  }

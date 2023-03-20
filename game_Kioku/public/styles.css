@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+  }
+  .background_0{
+    background-image: url(img/awan1.png);
+    background-repeat: no-repeat;
+    background-position-x:-170px ;
+    background-position-y:-100px ;
+  }
+  .background_1{
+    background-image: url(img/awan.png);
+    background-repeat: no-repeat;
+    background-position-x:400px ;
+    background-position-y:-100px ;
+  }
+  .background_2{
+    background-image: url(img/awan2.png);
+    background-repeat: no-repeat;
+    background-position-x:800px ;
+    background-position-y:-120px ;
+  }
+  .background_3{
+    background-image: url(img/awan1.png);
+    background-repeat: no-repeat;
+    background-position-x:1100px ;
+    background-position-y:-100px ;
+  }
+  .background_4{
+    background-image: url(img/pohon2.png);
+    background-repeat: no-repeat;
+    background-position-x:30px ;
+    background-position-y:320px ;
+  }
+  
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4rem;
+    margin:  6%;
+    padding: 4% 0 0 0 ;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
